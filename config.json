@@ -1,0 +1,12 @@
+{
+  "adaai_base_url": "http://127.0.0.1:8800/v1",
+  "host": "127.0.0.1",
+  "port": 8900,
+  "default_toolpack": "shop",
+  "limits": {
+    "execution_timeout_ms": 10000,
+    "limit_opcode_count": 10000000,
+    "max_managed_memory": 33554432
+  },
+  "http_timeout_ms": 300000
+}
