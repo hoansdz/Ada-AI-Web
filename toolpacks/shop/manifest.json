@@ -1,0 +1,11 @@
+{
+  "name": "shop",
+  "description": "Quản lý sản phẩm, đơn hàng, vận chuyển và tác vụ chăm sóc khách hàng",
+  "library": "tools/shop",
+  "effects": [
+    "zalo_send_message",
+    "tasks_create",
+    "Zalo.sendMessage",
+    "Tasks.create"
+  ]
+}

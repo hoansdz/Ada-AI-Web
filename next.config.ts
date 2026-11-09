@@ -1,5 +1,7 @@
 const nextConfig = {
-  experimental: {},
+  experimental: {
+    agentUpgrade: "security",
+  },
 }
 
 module.exports = nextConfig

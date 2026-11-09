@@ -1,12 +1,12 @@
-import { proxyRequest } from "@/lib/api"
+import { proxySessionRequest } from "@/lib/api"
 import { NextRequest } from "next/server"
 
 export const runtime = "nodejs"
 
-export async function GET(req: NextRequest) {
-  return proxyRequest("/api/capabilities", { method: "GET" })
+export async function GET(request: NextRequest): Promise<Response> {
+  return proxySessionRequest(request, "/v1/capabilities")
 }
 
-export async function POST(req: NextRequest) {
-  return proxyRequest("/api/capabilities", { method: "POST", body: req.body })
+export async function PUT(request: NextRequest): Promise<Response> {
+  return proxySessionRequest(request, "/v1/capabilities")
 }

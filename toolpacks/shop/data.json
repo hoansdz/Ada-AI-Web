@@ -1,0 +1,184 @@
+{
+  "products": [
+    { "id": "P001", "name": "Bàn phím cơ không dây", "price": 1250000, "stock": 45 },
+    { "id": "P002", "name": "Chuột gaming công thái học", "price": 650000, "stock": 80 },
+    { "id": "P003", "name": "Tai nghe chống ồn chủ động", "price": 2400000, "stock": 25 },
+    { "id": "P004", "name": "Màn hình 27 inch 2K 144Hz", "price": 5800000, "stock": 15 },
+    { "id": "P005", "name": "Giá đỡ laptop nhôm tản nhiệt", "price": 320000, "stock": 120 },
+    { "id": "P006", "name": "Cáp sạc nhanh Type-C 100W", "price": 180000, "stock": 200 },
+    { "id": "P007", "name": "Củ sạc GaN 65W 3 cổng", "price": 450000, "stock": 90 },
+    { "id": "P008", "name": "Lót chuột cỡ lớn 90x40cm", "price": 150000, "stock": 150 },
+    { "id": "P009", "name": "Đèn màn hình bảo vệ mắt", "price": 750000, "stock": 35 },
+    { "id": "P010", "name": "Loa bluetooth di động", "price": 950000, "stock": 40 },
+    { "id": "P011", "name": "Webcam Full HD 1080p", "price": 850000, "stock": 30 },
+    { "id": "P012", "name": "Micro thu âm USB", "price": 1100000, "stock": 22 },
+    { "id": "P013", "name": "Ổ cứng di động SSD 1TB", "price": 2100000, "stock": 18 },
+    { "id": "P014", "name": "USB 128GB chuẩn 3.2", "price": 280000, "stock": 110 },
+    { "id": "P015", "name": "Hub chuyển đổi 8 trong 1", "price": 690000, "stock": 55 },
+    { "id": "P016", "name": "Ghế công thái học lưới", "price": 3900000, "stock": 12 },
+    { "id": "P017", "name": "Tay nâng màn hình đơn", "price": 620000, "stock": 48 },
+    { "id": "P018", "name": "Bình giữ nhiệt 800ml", "price": 220000, "stock": 75 },
+    { "id": "P019", "name": "Kẹp giữ dây cáp để bàn", "price": 50000, "stock": 300 },
+    { "id": "P020", "name": "Bộ vệ sinh bàn phím đa năng", "price": 85000, "stock": 160 }
+  ],
+  "customers": [
+    { "id": "C001", "name": "Nguyễn Văn An", "phone": "0912345678" },
+    { "id": "C002", "name": "Trần Thị Bích", "phone": "0923456789" },
+    { "id": "C003", "name": "Lê Hoàng Nam", "phone": "0934567890" },
+    { "id": "C004", "name": "Phạm Minh Đức", "phone": "0945678901" },
+    { "id": "C005", "name": "Vũ Thu Trang", "phone": "0956789012" },
+    { "id": "C006", "name": "Đặng Quốc Huy", "phone": "0967890123" },
+    { "id": "C007", "name": "Hoàng Mai Chi", "phone": "0978901234" },
+    { "id": "C008", "name": "Bùi Tuấn Anh", "phone": "0989012345" }
+  ],
+  "orders": [
+    {
+      "id": "ORD001",
+      "customerId": "C001",
+      "status": "new",
+      "totalAmount": 1900000,
+      "items": [
+        { "productId": "P001", "productName": "Bàn phím cơ không dây", "quantity": 1, "price": 1250000 },
+        { "productId": "P002", "productName": "Chuột gaming công thái học", "quantity": 1, "price": 650000 }
+      ]
+    },
+    {
+      "id": "ORD002",
+      "customerId": "C002",
+      "status": "shipping",
+      "totalAmount": 2400000,
+      "items": [
+        { "productId": "P003", "productName": "Tai nghe chống ồn chủ động", "quantity": 1, "price": 2400000 }
+      ]
+    },
+    {
+      "id": "ORD003",
+      "customerId": "C003",
+      "status": "done",
+      "totalAmount": 5800000,
+      "items": [
+        { "productId": "P004", "productName": "Màn hình 27 inch 2K 144Hz", "quantity": 1, "price": 5800000 }
+      ]
+    },
+    {
+      "id": "ORD004",
+      "customerId": "C004",
+      "status": "new",
+      "totalAmount": 500000,
+      "items": [
+        { "productId": "P005", "productName": "Giá đỡ laptop nhôm tản nhiệt", "quantity": 1, "price": 320000 },
+        { "productId": "P006", "productName": "Cáp sạc nhanh Type-C 100W", "quantity": 1, "price": 180000 }
+      ]
+    },
+    {
+      "id": "ORD005",
+      "customerId": "C005",
+      "status": "shipping",
+      "totalAmount": 1200000,
+      "items": [
+        { "productId": "P007", "productName": "Củ sạc GaN 65W 3 cổng", "quantity": 1, "price": 450000 },
+        { "productId": "P009", "productName": "Đèn màn hình bảo vệ mắt", "quantity": 1, "price": 750000 }
+      ]
+    },
+    {
+      "id": "ORD006",
+      "customerId": "C006",
+      "status": "done",
+      "totalAmount": 950000,
+      "items": [
+        { "productId": "P010", "productName": "Loa bluetooth di động", "quantity": 1, "price": 950000 }
+      ]
+    },
+    {
+      "id": "ORD007",
+      "customerId": "C007",
+      "status": "done",
+      "totalAmount": 1950000,
+      "items": [
+        { "productId": "P011", "productName": "Webcam Full HD 1080p", "quantity": 1, "price": 850000 },
+        { "productId": "P012", "productName": "Micro thu âm USB", "quantity": 1, "price": 1100000 }
+      ]
+    },
+    {
+      "id": "ORD008",
+      "customerId": "C008",
+      "status": "shipping",
+      "totalAmount": 2380000,
+      "items": [
+        { "productId": "P013", "productName": "Ổ cứng di động SSD 1TB", "quantity": 1, "price": 2100000 },
+        { "productId": "P014", "productName": "USB 128GB chuẩn 3.2", "quantity": 1, "price": 280000 }
+      ]
+    },
+    {
+      "id": "ORD009",
+      "customerId": "C001",
+      "status": "done",
+      "totalAmount": 690000,
+      "items": [
+        { "productId": "P015", "productName": "Hub chuyển đổi 8 trong 1", "quantity": 1, "price": 690000 }
+      ]
+    },
+    {
+      "id": "ORD010",
+      "customerId": "C002",
+      "status": "new",
+      "totalAmount": 4520000,
+      "items": [
+        { "productId": "P016", "productName": "Ghế công thái học lưới", "quantity": 1, "price": 3900000 },
+        { "productId": "P017", "productName": "Tay nâng màn hình đơn", "quantity": 1, "price": 620000 }
+      ]
+    },
+    {
+      "id": "ORD011",
+      "customerId": "C003",
+      "status": "done",
+      "totalAmount": 305000,
+      "items": [
+        { "productId": "P018", "productName": "Bình giữ nhiệt 800ml", "quantity": 1, "price": 220000 },
+        { "productId": "P020", "productName": "Bộ vệ sinh bàn phím đa năng", "quantity": 1, "price": 85000 }
+      ]
+    },
+    {
+      "id": "ORD012",
+      "customerId": "C004",
+      "status": "shipping",
+      "totalAmount": 150000,
+      "items": [
+        { "productId": "P008", "productName": "Lót chuột cỡ lớn 90x40cm", "quantity": 1, "price": 150000 }
+      ]
+    },
+    {
+      "id": "ORD013",
+      "customerId": "C005",
+      "status": "done",
+      "totalAmount": 50000,
+      "items": [
+        { "productId": "P019", "productName": "Kẹp giữ dây cáp để bàn", "quantity": 1, "price": 50000 }
+      ]
+    },
+    {
+      "id": "ORD014",
+      "customerId": "C006",
+      "status": "cancelled",
+      "totalAmount": 1250000,
+      "items": [
+        { "productId": "P001", "productName": "Bàn phím cơ không dây", "quantity": 1, "price": 1250000 }
+      ]
+    },
+    {
+      "id": "ORD015",
+      "customerId": "C007",
+      "status": "cancelled",
+      "totalAmount": 650000,
+      "items": [
+        { "productId": "P002", "productName": "Chuột gaming công thái học", "quantity": 1, "price": 650000 }
+      ]
+    }
+  ],
+  "shipments": [
+    { "code": "SHIP001", "orderId": "ORD002", "carrier": "Giao Hàng Nhanh", "status": "delivering", "delayed": true },
+    { "code": "SHIP002", "orderId": "ORD005", "carrier": "Viettel Post", "status": "delivering", "delayed": false },
+    { "code": "SHIP003", "orderId": "ORD008", "carrier": "Giao Hàng Tiết Kiệm", "status": "delivering", "delayed": true },
+    { "code": "SHIP004", "orderId": "ORD012", "carrier": "VNPost", "status": "delivering", "delayed": false }
+  ]
+}

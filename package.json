@@ -6,11 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "tsx --test tests/**/*.test.ts"
   },
   "dependencies": {
+    "autolang-compiler": "file:../AutoLangNpm/autolang-compiler-0.0.31.tgz",
     "lucide-react": "^1.55.0",
-    "next": "16.4.0",
+    "marked": "^18.1.3",
+    "next": "^16.4.5",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
@@ -18,6 +21,7 @@
     "@types/node": "^22.20.5",
     "@types/react": "^19",
     "@types/react-dom": "19",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }
